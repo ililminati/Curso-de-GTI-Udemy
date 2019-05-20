@@ -1,0 +1,12 @@
+Os utilizadores de um sistema de 32 bits, devem inserir o seguinte comando:
+reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles(x86)%\Notepad++\notepad++.exe\" -notepadStyleCmdline -z" /f
+
+Os utilizadores de um sistema de 64 bits devem usar este comando:
+reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"%ProgramFiles%\Notepad++\notepad++.exe\" -notepadStyleCmdline -z" /f
+
+Para desfazer tudo isso, pode usar o seguinte comando:
+reg delete "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
+
+A lista completa de novas mudanças e inovações pode ser encontrada neste link.
+
+Ajude-nos a crescer, visite a nossa página do Facebook e deixe o seu gosto, para ter acesso a toda a informação em primeira mão. E se gostou do artigo não se esqueça de partilhar o mesmo com os seus amigos.
