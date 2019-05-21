@@ -6,4 +6,4 @@ Para Adicionar um arquivo para que seja "commintado" primeiro use o comando: # g
 Para Verificar o status dos arquivos, #git status
 Para fazer o Commint: # git commint -m "Comentário sobre o comint"
 
-Testando curso gratuito, não vou da nada, pq não sei onde fazer doação.
+Testando curso gratuito!
