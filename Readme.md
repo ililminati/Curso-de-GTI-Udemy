@@ -7,3 +7,5 @@ Para Verificar o status dos arquivos, #git status
 Para fazer o Commint: # git commint -m "Comentário sobre o comint"
 
 Testando curso gratuito!
+
+Acessem: [Portal da Engrenagem Dital da TI](www.editi.com.br)
